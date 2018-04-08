@@ -25,7 +25,7 @@ public class OrdenamientoInsercion {
     public int[] ordenarInsercion(int[] array){
         int aux;
         //Segunda modificación
-        for (int i = 2; i < array.length; i++) {
+        for (int i = 1; i < array.length; i++) {
             aux = array[i];
             for (int j = i-1; j >=0 && array[j]>aux; j--) {
                 array[j+1]=array[j];
