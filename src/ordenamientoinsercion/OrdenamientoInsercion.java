@@ -24,8 +24,8 @@ public class OrdenamientoInsercion {
     }
     public int[] ordenarInsercion(int[] array){
         int aux;
-        //Ordenamiento Insercion - clase github-commit
-        for (int i = 1; i < array.length; i++) {
+        //Segunda modificación
+        for (int i = 2; i < array.length; i++) {
             aux = array[i];
             for (int j = i-1; j >=0 && array[j]>aux; j--) {
                 array[j+1]=array[j];
